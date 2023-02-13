@@ -2,11 +2,12 @@ nav, nav *{
     background-color: rgba(41, 57, 73, 0.235);
 }
 
-.jumbo,
-.jumbo *{
+.__section-one ,
+.__section-one  *{
     background-color: rgba(26, 188, 156, 0.297);
 }
 
-.jumbo img{
-    border-radius: 50%;
+.__section-two ,
+.__section-two  *{
+    background-color: rgba(0, 0, 0, 0.151);
 }
