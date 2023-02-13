@@ -1,0 +1,12 @@
+nav, nav *{
+    background-color: rgba(41, 57, 73, 0.235);
+}
+
+.jumbo,
+.jumbo *{
+    background-color: rgba(26, 188, 156, 0.297);
+}
+
+.jumbo img{
+    border-radius: 50%;
+}
