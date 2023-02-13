@@ -1,13 +1,70 @@
-nav, nav *{
-    background-color: rgba(41, 57, 73, 0.235);
+nav{
+    background-color: rgba(41, 57, 73, 1);
 }
 
-.__section-one ,
-.__section-one  *{
-    background-color: rgba(26, 188, 156, 0.297);
+.__section-three,
+.__section-one{
+    background-color: rgba(26, 188, 156, 1);
 }
 
-.__section-two ,
-.__section-two  *{
-    background-color: rgba(0, 0, 0, 0.151);
+.__divisor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.__line{
+    width: 30vw;
+    height:2px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top:0;left:0
+}
+
+.fa-solid{
+    background-color: rgba(26, 188, 156, 1);
+    color: white;
+    position: absolute;
+    top:50%; left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding:0 10px;
+    font-size: 1.3em;
+}
+
+.__section-four .fa-solid,
+.__section-two .fa-solid{
+    background-color: white;
+    color:black;
+}
+
+.__section-four .__line,
+.__section-two .__line{
+    background-color: black;
+}
+
+.__btn-style{
+    background-color:rgba(26, 188, 156, 1);
+    color: white;
+}
+
+
+footer .container-fluid{
+    background-color: rgb(58, 84, 109);
+}
+
+
+footer .__icon-wrapper{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+footer i{
+    transform: translateX(40%) translateY(10%);
+}
+
+.__footer-bottom{
+    background-color: rgb(44, 62, 80);
 }
