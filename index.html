@@ -20,28 +20,40 @@
     <header>
         
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm">
+        <nav>
     
-            <div class="container-md">
+            <div class="container-md navbar navbar-expand-sm">
     
                 <a class="navbar-brand fs-4 text-white" href="#">START BOOSTRAP</a>
-        
+
+                <!-- Collapse button -->
+                <button class="btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-white"><i class="fas fa-bars fa-1x"></i></span>
+                </button>
                 
-                <ul class="navbar-nav">
-        
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">PORTFOLIO</a>
-                    </li>
-        
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">ABOUT</a>
-                    </li>
-        
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">CONTACT</a>
-                    </li>
-        
-                </ul>
+                
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+
+                    </ul>
+                <!-- Links -->
+
+                </div>
                   
             </div>    
         
@@ -61,15 +73,16 @@
                         <div class="col-auto d-flex flex-column justify-content-center">
 
                             <!-- jumbo img -->
-                            <img class="rounded-circle w-25 m-auto my-5" src="https://picsum.photos/280/280" alt="immagine di prova">
+                            <img class="rounded-circle img-fluid w-50 m-auto my-3" src="img/avatar.svg" alt="immagine di prova">
 
                             <!-- Title -->
                             <h1 class="text-center text-white">START BOOSTRAP</h1>
 
                             <!-- divisore -->
-                            <div class="__divisor">
-                                <div class="__line"></div>
-                                <i class="fa-solid fa-star"></i>
+                            <div class="__divisor text-white d-flex align-items-center flex-nowrap justify-content-center mb-4">
+                                <div class="__line bg-white rounded-2"></div>
+                                <i class="fa-solid fa-star fs-3 mx-4"></i>
+                                <div class="__line bg-white rounded-2"></div>
                             </div>
 
                             <!-- subtitle -->
@@ -94,10 +107,11 @@
 
                     <h2 class="text-center">PORTFOLIO</h2>
 
-                     <!-- divisore -->
-                     <div class="__divisor">
-                        <div class="__line"></div>
-                        <i class="fa-solid fa-star"></i>
+                    <!-- divisore -->
+                    <div class="__divisor d-flex align-items-center flex-nowrap justify-content-center mb-4">
+                        <div class="__line bg-dark rounded-2"></div>
+                        <i class="fa-solid fa-star fs-3 mx-4"></i>
+                        <div class="__line  bg-dark rounded-2"></div>
                     </div>
 
 
@@ -105,9 +119,9 @@
 
                         <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center">
 
-                            <div class="__border container-fluid p-2 h-100 d-flex justify-content-center align-items-center __bg-uno">
+                            <div class="__border container-fluid h-100 d-flex justify-content-center align-items-center __bg-uno">
                                 
-                                <img class="w-50 rounded-circle" src="https://picsum.photos/1200/1200" alt="">                        
+                                <img class="img-fluid w75" src="img/cabin.png" alt="">                        
                             
                             </div>
 
@@ -115,9 +129,9 @@
 
                         <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center">
 
-                            <div class="__border container-fluid p-3 h-100 d-flex justify-content-center align-items-center __bg-due">
+                            <div class="__border container-fluid h-100 d-flex justify-content-center align-items-center __bg-due">
                                 
-                                <img class="w-50 rounded-circle" src="https://picsum.photos/1200/1200" alt="">                        
+                                <img class="img-fluid w75" src="img/cake.png" alt="">                        
                             
                             </div>
 
@@ -125,9 +139,9 @@
 
                         <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center">
 
-                            <div class="__border container-fluid p-3 h-100 d-flex justify-content-center align-items-center __bg-tre">
+                            <div class="__border container-fluid h-100 d-flex justify-content-center align-items-center __bg-tre">
                                 
-                                <img class="w-50 rounded-circle" src="https://picsum.photos/1200/1200" alt="">                        
+                                <img class="img-fluid w75" src="img/circus.png" alt="">                        
                             
                             </div>
 
@@ -135,9 +149,9 @@
 
                         <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center">
 
-                            <div class="__border container-fluid p-3 h-100 d-flex justify-content-center align-items-center __bg-quattro">
+                            <div class="__border container-fluid h-100 d-flex justify-content-center align-items-center __bg-quattro">
                                 
-                                <img class="w-50 rounded-circle" src="https://picsum.photos/1200/1200" alt="">                        
+                                <img class="img-fluid w75" src="img/game.png" alt="">                        
                             
                             </div>
 
@@ -145,9 +159,9 @@
 
                         <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center">
 
-                            <div class="__border container-fluid p-3 h-100 d-flex justify-content-center align-items-center __bg-cinque">
+                            <div class="__border container-fluid h-100 d-flex justify-content-center align-items-center __bg-cinque">
                                 
-                                <img class="w-50 rounded-circle" src="https://picsum.photos/1200/1200" alt="">                        
+                                <img class="img-fluid w75" src="img/safe.png" alt="">                        
                             
                             </div>
 
@@ -155,9 +169,9 @@
 
                         <div class="col-md-4 col-sm-6 col-12 d-flex align-items-center">
 
-                            <div class="__border container-fluid p-3 h-100 d-flex justify-content-center align-items-center __bg-sei">
+                            <div class="__border container-fluid h-100 d-flex justify-content-center align-items-center __bg-sei">
                                 
-                                <img class="w-50 rounded-circle" src="https://picsum.photos/1200/1200" alt="">                        
+                                <img class="img-fluid w75" src="img/submarine.png" alt="">                        
                             
                             </div>
 
@@ -182,9 +196,10 @@
                     <h2 class="text-white text-center pt-4">ABOUT</h2>
 
                     <!-- divisore -->
-                    <div class="__divisor">
-                        <div class="__line"></div>
-                        <i class="fa-solid fa-star"></i>
+                    <div class="__divisor text-white d-flex align-items-center flex-nowrap justify-content-center mb-4">
+                        <div class="__line bg-white rounded-2"></div>
+                        <i class="fa-solid fa-star fs-3 mx-4"></i>
+                        <div class="__line bg-white rounded-2"></div>
                     </div>
 
                     <div class="row px-5">
@@ -193,9 +208,12 @@
                         <div class="col-sm-6 col-12 p-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolores delectus ratione officiis quis atque quae qui, dolor animi porro praesentium minus laboriosam neque est, perspiciatis quo nihil quos illo.</div>
 
                     </div>
-                    <div class="text-center p-3">
+                    <div class="d-flex justify-content-center">
 
-                        <button type="button" class="btn btn-outline-light"> Download</button>
+                        <button type="button" class="btn btn-outline-light d-flex align-items-center"> 
+                            <i class="fa-solid fa-download pe-2"></i>
+                            Download
+                        </button>
                     
                     </div>
 
@@ -215,9 +233,10 @@
                     <h2 class=" text-center pt-4">CONTACT ME</h2>
 
                     <!-- divisore -->
-                    <div class="__divisor">
-                        <div class="__line"></div>
-                        <i class="fa-solid fa-star"></i>
+                    <div class="__divisor d-flex align-items-center flex-nowrap justify-content-center mb-4">
+                        <div class="__line bg-dark rounded-2"></div>
+                        <i class="fa-solid fa-star fs-3 mx-4"></i>
+                        <div class="__line  bg-dark rounded-2"></div>
                     </div>
 
                     <div class="container-fluid">
@@ -255,9 +274,9 @@
 
             <div class="container-md">
 
-                <div class="row text-white py-4">
+                <div class="row row-cols-md-3 row-cols-1 text-white py-4">
 
-                    <div class="col">
+                    <div class="col mb-3">
 
                         <div class="container-fluid d-flex flex-column justify-content-center">
 
@@ -270,7 +289,7 @@
                     </div>
 
 
-                    <div class="col">
+                    <div class="col mb-3">
 
                         <div class="container-fluid d-flex flex-column justify-content-center">
 
@@ -310,7 +329,7 @@
                     
 
 
-                    <div class="col">
+                    <div class="col mb-3">
                         <div class="container-fluid d-flex flex-column justify-content-center">
                             <h4 class="fs-5 text-center">ABOUT FREELANCER</h4>
                             <span class="fs-6 text-center">Freelance is a free to use, open source Bootstrap theme created by <a class="fa-anchor-lock" href="#">Start Bootstrap</a></span>
